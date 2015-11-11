@@ -291,8 +291,8 @@ update_status ModulePhysics::PostUpdate()
 			char debug = 'a';
 		}
 		b2MouseJointDef def;
-		def.bodyA = ground;
-		def.bodyB = body_clicked;
+		def.bodyA = body_clicked;
+		def.bodyB = NULL;
 		def.target = mouse_position;
 		def.dampingRatio = 0.5f;
 		def.frequencyHz = 2.0f;

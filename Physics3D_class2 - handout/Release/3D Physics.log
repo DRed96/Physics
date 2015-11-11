@@ -1,0 +1,45 @@
+﻿Compilación iniciada a las 11/11/2015 10:25:30.
+     1>Proyecto "D:\Users\davidrc17\Desktop\Physics3D_class2 - handout\3D Physics.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\soft\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Application.cpp Color.cpp glmath.cpp Light.cpp log.cpp Main.cpp ModuleAudio.cpp ModuleCamera3D.cpp ModuleInput.cpp ModulePhysics3D.cpp ModuleRenderer3D.cpp ModuleSceneIntro.cpp ModuleWindow.cpp Primitive.cpp Timer.cpp
+         Application.cpp
+         Color.cpp
+         glmath.cpp
+         Light.cpp
+         log.cpp
+         Main.cpp
+         ModuleAudio.cpp
+         ModuleCamera3D.cpp
+         ModuleInput.cpp
+         ModulePhysics3D.cpp
+     1>ModulePhysics3D.cpp(31): warning C4150: eliminación de puntero a tipo 'DebugDrawer' incompleto; no se ha llamado a un destructor
+                 d:\users\davidrc17\desktop\physics3d_class2 - handout\ModulePhysics3D.h(9) : vea la declaración de 'DebugDrawer'
+         ModuleRenderer3D.cpp
+         ModuleSceneIntro.cpp
+         ModuleWindow.cpp
+         Primitive.cpp
+         Timer.cpp
+       Link:
+         C:\soft\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\davidrc17\Desktop\Physics3D_class2 - handout\Release\3D Physics - class2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\davidrc17\Desktop\Physics3D_class2 - handout\Release\3D Physics - class2.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\davidrc17\Desktop\Physics3D_class2 - handout\Release\3D Physics - class2.lib" /MACHINE:X86 /SAFESEH:NO Release\Application.obj
+         Release\Color.obj
+         Release\glmath.obj
+         Release\Light.obj
+         Release\log.obj
+         Release\Main.obj
+         Release\ModuleAudio.obj
+         Release\ModuleCamera3D.obj
+         Release\ModuleInput.obj
+         Release\ModulePhysics3D.obj
+         Release\ModuleRenderer3D.obj
+         Release\ModuleSceneIntro.obj
+         Release\ModuleWindow.obj
+         Release\Primitive.obj
+         Release\Timer.obj
+         Generando código
+         Generación de código finalizada
+         3D Physics.vcxproj -> D:\Users\davidrc17\Desktop\Physics3D_class2 - handout\Release\3D Physics - class2.exe
+     1>Compilación del proyecto terminada "D:\Users\davidrc17\Desktop\Physics3D_class2 - handout\3D Physics.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:06.32
